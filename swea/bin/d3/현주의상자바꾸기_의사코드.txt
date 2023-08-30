@@ -1,0 +1,18 @@
+int t // testcase 수
+
+for tc from 1 to t // testcase만큼 반복
+	int n = 상자 개수
+	int q = 작업 횟수
+	int[] cnt = 작업횟수를 저장할 
+	
+	for i from 0 to q-1
+		left[] = 범위의 왼쪽 끝 (입력)
+		rifght[] = 범위의 오른쪽 끝 (입력)
+		
+	for i from 0 to q-1
+		for j from 0 to n-1
+			if(왼쪽 , 오른쪽 범위 내부)
+				cnt[] = i + 1
+				
+	for i from 0 to n-1			
+		sysout("#"+tc+" "+cnt[])
