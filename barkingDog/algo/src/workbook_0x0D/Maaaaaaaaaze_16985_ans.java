@@ -115,7 +115,6 @@ public class Maaaaaaaaaze_16985_ans {
 
 
     static class Node {
-
         int x, y, z;
         public Node(int x, int y, int z) {
             this.x = x;
