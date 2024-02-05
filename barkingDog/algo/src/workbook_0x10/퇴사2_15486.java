@@ -20,8 +20,8 @@ public class 퇴사2_15486 {
         }
 
         for(int i =N ; i >= 1 ; i--){
-            if(i+TP[i][0] <= N+1){
-                memo[i] = Math.max(memo[i+TP[i][0]] + TP[i][1], memo[i+1]);
+            if(i+TP[i][0] <= N+1){ //i일에 상담 가능이면
+                memo[i] = Math.max(memo[i+TP[i][0]] + TP[i][1], memo[i+1]); //하는경우와 안하는 경우의 최대 가격 비교한다
             }else {
                 memo[i] = memo[i+1];
             }

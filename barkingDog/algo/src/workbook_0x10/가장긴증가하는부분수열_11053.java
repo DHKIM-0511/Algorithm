@@ -9,6 +9,7 @@ public class 가장긴증가하는부분수열_11053 {
     static int N;
     static int[] num = new int[1005];
     static int[] memo = new int[1005];
+    //i번째 index까지 증가하는 최장 부분수열의 길이
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());

@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class 이친수_2193 {
     static int N;
-    static long[][] memo = new long[95][2];
+    static long[][] memo = new long[95][2]; //i자리의 수중 0, 1 로 끝나는 수의 경우
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
