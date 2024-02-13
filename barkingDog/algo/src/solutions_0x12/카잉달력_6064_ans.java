@@ -24,7 +24,7 @@ public class 카잉달력_6064_ans {
         return a/ gcd(a,b) * b;
     }
 
-    private static int gcd(int a, int b) {
+    public static int gcd(int a, int b) {
         if(a == 0) return b;
         return gcd(b%a, a);
     }
