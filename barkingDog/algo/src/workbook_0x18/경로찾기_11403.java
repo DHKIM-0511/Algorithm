@@ -1,4 +1,4 @@
-package solutions_0x18;
+package workbook_0x18;
 
 import java.io.BufferedReader;
 import java.io.IOException;
