@@ -9,7 +9,8 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class 플로이드2_11780 {
-    static int n,m, INF = 0x3f3f3f3f;
+    static final int INF=0x3f3f3f3f;
+    static int n,m;
     static int[][] distMap;
     static int[][] nextMap;
     public static void main(String[] args) throws IOException {

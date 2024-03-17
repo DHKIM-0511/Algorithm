@@ -7,7 +7,8 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class 서강그라운드_14938 {
-    static int n,m,r,INF = 0x3f3f3f3f;
+    static final int INF=0x3f3f3f3f;
+    static int n,m,r;
     static int[] items;
     static boolean[] visited;
     static int[][] map, next;

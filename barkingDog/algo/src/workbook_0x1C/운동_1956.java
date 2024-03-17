@@ -7,7 +7,8 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class 운동_1956 {
-    static int v,e,INF=0x3f3f3f3f;
+    static final int INF=0x3f3f3f3f;
+    static int v,e;
     static int[][] map;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

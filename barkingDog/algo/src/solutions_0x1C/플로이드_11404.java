@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 public class 플로이드_11404 {
     static int n,m;
-    static int INF = 0x3f3f3f3f;
+    static final int INF = 0x3f3f3f3f;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(br.readLine());

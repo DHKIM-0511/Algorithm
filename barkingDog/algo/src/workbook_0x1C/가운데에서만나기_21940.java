@@ -10,7 +10,8 @@ import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class 가운데에서만나기_21940 {
-    static int n,m,p,INF = 0x3f3f3f3f;
+    static final int INF=0x3f3f3f3f;
+    static int n,m,p;
     static int[] input;
     static int[][] map;
     public static void main(String[] args) throws IOException {
