@@ -1,4 +1,4 @@
-package solutions_0x1C;
+package workbook_0x1C;
 
 import java.io.BufferedReader;
 import java.io.IOException;
